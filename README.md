@@ -5,3 +5,6 @@ Show versions of all joomla sites, hosted by your hosting
 таким образом, если у вас много сайтов - вы всегда можете узнать какие версии джумла установлены в каждом сайте
 
 ![radicalform3](https://github.com/Delo-Design/joomla-versions-on-your-hosting/blob/master/2018-11-05_15-54-36.png)
+
+скачиваем файл **all_joomla_versions.sh**
+Делаем его исполняемым, указываем в переменной DIR путь к вашим сайтам и запускаем.
