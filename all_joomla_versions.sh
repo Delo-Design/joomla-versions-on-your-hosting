@@ -14,7 +14,7 @@ if [ -f administrator/manifests/files/joomla.xml ]
 then
 printf "\t joomla "
 cat administrator/manifests/files/joomla.xml | grep "<version>.*</version>" | sed -rn 's/.*>([0-9.]+)<.*/\1/p'
-else.
+else
 echo ""
 fi
 
